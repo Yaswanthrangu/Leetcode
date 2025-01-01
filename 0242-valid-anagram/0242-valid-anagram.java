@@ -5,15 +5,12 @@ class Solution {
         if(n != m) {
             return false;
         }
-        char chars1[] = s.toCharArray();
-        char chars2[] = t.toCharArray();
-        Arrays.sort(chars1);
-        Arrays.sort(chars2);
+        HashMap<Character, Integer> mp1 = new HashMap<>();
+        HashMap<Character, Integer> mp2 = new HashMap<>();
         for(int i = 0; i < n; i++) {
-            if(chars1[i] != chars2[i]) {
-                return false;
-            }
+            mp1.put(s.charAt(i), mp1.getOrDefault(s.charAt(i), 0)+1);
+            mp2.put(t.charAt(i), mp2.getOrDefault(t.charAt(i), 0)+1);
         }
-        return true;
+        return mp1.equals(mp2);
     }
 }
