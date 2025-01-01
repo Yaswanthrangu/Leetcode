@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0217-contains-duplicate](https://github.com/Yaswanthrangu/Leetcode/tree/master/0217-contains-duplicate) |
+| [1231-replace-elements-with-greatest-element-on-right-side](https://github.com/Yaswanthrangu/Leetcode/tree/master/1231-replace-elements-with-greatest-element-on-right-side) |
 | [2058-concatenation-of-array](https://github.com/Yaswanthrangu/Leetcode/tree/master/2058-concatenation-of-array) |
 ## Simulation
 |  |
