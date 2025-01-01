@@ -5,12 +5,16 @@ class Solution {
         if(n != m) {
             return false;
         }
-        HashMap<Character, Integer> mp1 = new HashMap<>();
-        HashMap<Character, Integer> mp2 = new HashMap<>();
+        int res[] = new int[26];
         for(int i = 0; i < n; i++) {
-            mp1.put(s.charAt(i), mp1.getOrDefault(s.charAt(i), 0)+1);
-            mp2.put(t.charAt(i), mp2.getOrDefault(t.charAt(i), 0)+1);
+            res[s.charAt(i) - 'a']++;
+            res[t.charAt(i) - 'a']--;
         }
-        return mp1.equals(mp2);
+        for(int val : res) {
+            if(val != 0) {
+                return false;
+            }
+        }
+        return true;
     }
 }
