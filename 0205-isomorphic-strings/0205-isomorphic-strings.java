@@ -5,26 +5,20 @@ class Solution {
         if(n != m) {
             return false;
         }
-        HashMap <Character, Character> charsS = new HashMap<>();
-        HashMap <Character, Character> charsT = new HashMap<>();
+        HashMap <Character, Character> mp = new HashMap<>();
         for(int i = 0; i < n; i++) {
-            char intial = s.charAt(i);
-            char replacer = t.charAt(i);
-            if(charsS.containsKey(intial)) {
-                if(charsS.get(intial) != replacer) {
+            if(!(mp.containsKey(s.charAt(i)))) {
+                if(!(mp.containsValue(t.charAt(i)))) {
+                    mp.put(s.charAt(i), t.charAt(i));
+                }
+                else {
                     return false;
                 }
             }
             else {
-                charsS.put(intial, replacer);
-            }
-            if(charsT.containsKey(replacer)) {
-                if(charsT.get(replacer) != intial) {
+                if(mp.get(s.charAt(i)) != t.charAt(i)) {
                     return false;
                 }
-            }
-            else {
-                charsT.put(replacer, intial);
             }
         }
         return true;
