@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Yaswanthrangu/Leetcode/tree/master/0001-two-sum) |
+| [0027-remove-element](https://github.com/Yaswanthrangu/Leetcode/tree/master/0027-remove-element) |
 | [0049-group-anagrams](https://github.com/Yaswanthrangu/Leetcode/tree/master/0049-group-anagrams) |
 | [0118-pascals-triangle](https://github.com/Yaswanthrangu/Leetcode/tree/master/0118-pascals-triangle) |
 | [0217-contains-duplicate](https://github.com/Yaswanthrangu/Leetcode/tree/master/0217-contains-duplicate) |
@@ -40,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0027-remove-element](https://github.com/Yaswanthrangu/Leetcode/tree/master/0027-remove-element) |
 | [0392-is-subsequence](https://github.com/Yaswanthrangu/Leetcode/tree/master/0392-is-subsequence) |
 ## Dynamic Programming
 |  |
