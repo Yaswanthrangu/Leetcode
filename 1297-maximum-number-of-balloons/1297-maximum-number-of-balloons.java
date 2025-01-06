@@ -1,19 +1,16 @@
 class Solution {
     public int maxNumberOfBalloons(String text) {
-        Map<Character, Integer> countText = new HashMap<>();
+        Map<Character, Integer> mp = new HashMap<>();
         for (char c : text.toCharArray()) {
-            countText.put(c, countText.getOrDefault(c, 0) + 1);
+            if ("balon".indexOf(c) != -1) {
+                mp.put(c, mp.getOrDefault(c, 0) + 1);
+            }
         }
-
-        Map<Character, Integer> balloon = new HashMap<>();
-        for (char c : "balloon".toCharArray()) {
-            balloon.put(c, balloon.getOrDefault(c, 0) + 1);
+        if (mp.size() < 5) {
+            return 0;
         }
-
-        int res = Integer.MAX_VALUE;;
-        for (char c : balloon.keySet()) {
-            res = Math.min(res, countText.getOrDefault(c, 0) / balloon.get(c));
-        }
-        return res;
+        mp.put('l', mp.get('l') / 2);
+        mp.put('o', mp.get('o') / 2);
+        return Collections.min(mp.values());
     }
 }
