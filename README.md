@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0724-find-pivot-index](https://github.com/Yaswanthrangu/Leetcode/tree/master/0724-find-pivot-index) |
 | [0816-design-hashset](https://github.com/Yaswanthrangu/Leetcode/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/Yaswanthrangu/Leetcode/tree/master/0817-design-hashmap) |
+| [0932-monotonic-array](https://github.com/Yaswanthrangu/Leetcode/tree/master/0932-monotonic-array) |
 | [0965-unique-email-addresses](https://github.com/Yaswanthrangu/Leetcode/tree/master/0965-unique-email-addresses) |
 | [1231-replace-elements-with-greatest-element-on-right-side](https://github.com/Yaswanthrangu/Leetcode/tree/master/1231-replace-elements-with-greatest-element-on-right-side) |
 | [2058-concatenation-of-array](https://github.com/Yaswanthrangu/Leetcode/tree/master/2058-concatenation-of-array) |
