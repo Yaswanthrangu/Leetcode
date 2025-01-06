@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/Yaswanthrangu/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0605-can-place-flowers](https://github.com/Yaswanthrangu/Leetcode/tree/master/0605-can-place-flowers) |
 | [0724-find-pivot-index](https://github.com/Yaswanthrangu/Leetcode/tree/master/0724-find-pivot-index) |
+| [0816-design-hashset](https://github.com/Yaswanthrangu/Leetcode/tree/master/0816-design-hashset) |
 | [0965-unique-email-addresses](https://github.com/Yaswanthrangu/Leetcode/tree/master/0965-unique-email-addresses) |
 | [1231-replace-elements-with-greatest-element-on-right-side](https://github.com/Yaswanthrangu/Leetcode/tree/master/1231-replace-elements-with-greatest-element-on-right-side) |
 | [2058-concatenation-of-array](https://github.com/Yaswanthrangu/Leetcode/tree/master/2058-concatenation-of-array) |
@@ -36,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0290-word-pattern](https://github.com/Yaswanthrangu/Leetcode/tree/master/0290-word-pattern) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/Yaswanthrangu/Leetcode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0496-next-greater-element-i](https://github.com/Yaswanthrangu/Leetcode/tree/master/0496-next-greater-element-i) |
+| [0816-design-hashset](https://github.com/Yaswanthrangu/Leetcode/tree/master/0816-design-hashset) |
 | [0965-unique-email-addresses](https://github.com/Yaswanthrangu/Leetcode/tree/master/0965-unique-email-addresses) |
 | [1297-maximum-number-of-balloons](https://github.com/Yaswanthrangu/Leetcode/tree/master/1297-maximum-number-of-balloons) |
 ## Sorting
@@ -101,4 +103,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0303-range-sum-query-immutable](https://github.com/Yaswanthrangu/Leetcode/tree/master/0303-range-sum-query-immutable) |
+| [0816-design-hashset](https://github.com/Yaswanthrangu/Leetcode/tree/master/0816-design-hashset) |
+## Linked List
+|  |
+| ------- |
+| [0816-design-hashset](https://github.com/Yaswanthrangu/Leetcode/tree/master/0816-design-hashset) |
+## Hash Function
+|  |
+| ------- |
+| [0816-design-hashset](https://github.com/Yaswanthrangu/Leetcode/tree/master/0816-design-hashset) |
 <!---LeetCode Topics End-->
