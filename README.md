@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0817-design-hashmap](https://github.com/Yaswanthrangu/Leetcode/tree/master/0817-design-hashmap) |
 | [0932-monotonic-array](https://github.com/Yaswanthrangu/Leetcode/tree/master/0932-monotonic-array) |
 | [0965-unique-email-addresses](https://github.com/Yaswanthrangu/Leetcode/tree/master/0965-unique-email-addresses) |
+| [1112-find-words-that-can-be-formed-by-characters](https://github.com/Yaswanthrangu/Leetcode/tree/master/1112-find-words-that-can-be-formed-by-characters) |
 | [1231-replace-elements-with-greatest-element-on-right-side](https://github.com/Yaswanthrangu/Leetcode/tree/master/1231-replace-elements-with-greatest-element-on-right-side) |
 | [1635-number-of-good-pairs](https://github.com/Yaswanthrangu/Leetcode/tree/master/1635-number-of-good-pairs) |
 | [2058-concatenation-of-array](https://github.com/Yaswanthrangu/Leetcode/tree/master/2058-concatenation-of-array) |
@@ -44,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0816-design-hashset](https://github.com/Yaswanthrangu/Leetcode/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/Yaswanthrangu/Leetcode/tree/master/0817-design-hashmap) |
 | [0965-unique-email-addresses](https://github.com/Yaswanthrangu/Leetcode/tree/master/0965-unique-email-addresses) |
+| [1112-find-words-that-can-be-formed-by-characters](https://github.com/Yaswanthrangu/Leetcode/tree/master/1112-find-words-that-can-be-formed-by-characters) |
 | [1297-maximum-number-of-balloons](https://github.com/Yaswanthrangu/Leetcode/tree/master/1297-maximum-number-of-balloons) |
 | [1635-number-of-good-pairs](https://github.com/Yaswanthrangu/Leetcode/tree/master/1635-number-of-good-pairs) |
 ## Sorting
@@ -64,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0290-word-pattern](https://github.com/Yaswanthrangu/Leetcode/tree/master/0290-word-pattern) |
 | [0392-is-subsequence](https://github.com/Yaswanthrangu/Leetcode/tree/master/0392-is-subsequence) |
 | [0965-unique-email-addresses](https://github.com/Yaswanthrangu/Leetcode/tree/master/0965-unique-email-addresses) |
+| [1112-find-words-that-can-be-formed-by-characters](https://github.com/Yaswanthrangu/Leetcode/tree/master/1112-find-words-that-can-be-formed-by-characters) |
 | [1297-maximum-number-of-balloons](https://github.com/Yaswanthrangu/Leetcode/tree/master/1297-maximum-number-of-balloons) |
 ## Two Pointers
 |  |
@@ -92,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/Yaswanthrangu/Leetcode/tree/master/0169-majority-element) |
+| [1112-find-words-that-can-be-formed-by-characters](https://github.com/Yaswanthrangu/Leetcode/tree/master/1112-find-words-that-can-be-formed-by-characters) |
 | [1297-maximum-number-of-balloons](https://github.com/Yaswanthrangu/Leetcode/tree/master/1297-maximum-number-of-balloons) |
 | [1635-number-of-good-pairs](https://github.com/Yaswanthrangu/Leetcode/tree/master/1635-number-of-good-pairs) |
 ## Stack
