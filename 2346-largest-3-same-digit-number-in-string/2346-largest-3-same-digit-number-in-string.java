@@ -1,14 +1,11 @@
 class Solution {
     public String largestGoodInteger(String num) {
-        String ans = "";
+        int res = -1;
         for(int i = 0; i < num.length() - 2; i++) {
             if(num.charAt(i) == num.charAt(i+1) && num.charAt(i) == num.charAt(i+2)) {
-                String temp = num.substring(i, i+3);
-                if(temp.compareTo(ans) > 0) {
-                    ans = temp;
-                }
+                res = Math.max(res, num.charAt(i) - '0');
             }
         }
-        return ans;
+        return res == -1 ? "" : String.valueOf(res).repeat(3);
     }
 }
