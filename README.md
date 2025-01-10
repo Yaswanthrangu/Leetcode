@@ -72,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0965-unique-email-addresses](https://github.com/Yaswanthrangu/Leetcode/tree/master/0965-unique-email-addresses) |
 | [1112-find-words-that-can-be-formed-by-characters](https://github.com/Yaswanthrangu/Leetcode/tree/master/1112-find-words-that-can-be-formed-by-characters) |
 | [1297-maximum-number-of-balloons](https://github.com/Yaswanthrangu/Leetcode/tree/master/1297-maximum-number-of-balloons) |
+| [1537-maximum-score-after-splitting-a-string](https://github.com/Yaswanthrangu/Leetcode/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1547-destination-city](https://github.com/Yaswanthrangu/Leetcode/tree/master/1547-destination-city) |
 | [2346-largest-3-same-digit-number-in-string](https://github.com/Yaswanthrangu/Leetcode/tree/master/2346-largest-3-same-digit-number-in-string) |
 ## Two Pointers
@@ -117,6 +118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0303-range-sum-query-immutable](https://github.com/Yaswanthrangu/Leetcode/tree/master/0303-range-sum-query-immutable) |
 | [0724-find-pivot-index](https://github.com/Yaswanthrangu/Leetcode/tree/master/0724-find-pivot-index) |
+| [1537-maximum-score-after-splitting-a-string](https://github.com/Yaswanthrangu/Leetcode/tree/master/1537-maximum-score-after-splitting-a-string) |
 ## Design
 |  |
 | ------- |
