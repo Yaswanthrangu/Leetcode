@@ -76,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1537-maximum-score-after-splitting-a-string](https://github.com/Yaswanthrangu/Leetcode/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1547-destination-city](https://github.com/Yaswanthrangu/Leetcode/tree/master/1547-destination-city) |
 | [1619-path-crossing](https://github.com/Yaswanthrangu/Leetcode/tree/master/1619-path-crossing) |
+| [1884-minimum-changes-to-make-alternating-binary-string](https://github.com/Yaswanthrangu/Leetcode/tree/master/1884-minimum-changes-to-make-alternating-binary-string) |
 | [2346-largest-3-same-digit-number-in-string](https://github.com/Yaswanthrangu/Leetcode/tree/master/2346-largest-3-same-digit-number-in-string) |
 ## Two Pointers
 |  |
