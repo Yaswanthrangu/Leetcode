@@ -52,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1547-destination-city](https://github.com/Yaswanthrangu/Leetcode/tree/master/1547-destination-city) |
 | [1619-path-crossing](https://github.com/Yaswanthrangu/Leetcode/tree/master/1619-path-crossing) |
 | [1635-number-of-good-pairs](https://github.com/Yaswanthrangu/Leetcode/tree/master/1635-number-of-good-pairs) |
+| [2025-redistribute-characters-to-make-all-strings-equal](https://github.com/Yaswanthrangu/Leetcode/tree/master/2025-redistribute-characters-to-make-all-strings-equal) |
 ## Sorting
 |  |
 | ------- |
@@ -77,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1547-destination-city](https://github.com/Yaswanthrangu/Leetcode/tree/master/1547-destination-city) |
 | [1619-path-crossing](https://github.com/Yaswanthrangu/Leetcode/tree/master/1619-path-crossing) |
 | [1884-minimum-changes-to-make-alternating-binary-string](https://github.com/Yaswanthrangu/Leetcode/tree/master/1884-minimum-changes-to-make-alternating-binary-string) |
+| [2025-redistribute-characters-to-make-all-strings-equal](https://github.com/Yaswanthrangu/Leetcode/tree/master/2025-redistribute-characters-to-make-all-strings-equal) |
 | [2346-largest-3-same-digit-number-in-string](https://github.com/Yaswanthrangu/Leetcode/tree/master/2346-largest-3-same-digit-number-in-string) |
 ## Two Pointers
 |  |
@@ -108,6 +110,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1112-find-words-that-can-be-formed-by-characters](https://github.com/Yaswanthrangu/Leetcode/tree/master/1112-find-words-that-can-be-formed-by-characters) |
 | [1297-maximum-number-of-balloons](https://github.com/Yaswanthrangu/Leetcode/tree/master/1297-maximum-number-of-balloons) |
 | [1635-number-of-good-pairs](https://github.com/Yaswanthrangu/Leetcode/tree/master/1635-number-of-good-pairs) |
+| [2025-redistribute-characters-to-make-all-strings-equal](https://github.com/Yaswanthrangu/Leetcode/tree/master/2025-redistribute-characters-to-make-all-strings-equal) |
 ## Stack
 |  |
 | ------- |
