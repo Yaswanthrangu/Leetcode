@@ -1,11 +1,14 @@
 class Solution {
     public int maxLengthBetweenEqualCharacters(String s) {
         int res = -1;
+        HashMap <Character, Integer> mp = new HashMap<>();
         for(int i = 0; i < s.length(); i++) {
-            for(int j = i + 1; j < s.length(); j++) {
-                if(s.charAt(i) == s.charAt(j)) {
-                    res = Math.max(res, j - i - 1);
-                }
+            char curr_char = s.charAt(i);
+            if(mp.containsKey(curr_char)) {
+                res = Math.max(res, i - mp.get(curr_char) - 1);
+            }
+            else {
+                mp.put(curr_char, i);
             }
         }
         return res;
