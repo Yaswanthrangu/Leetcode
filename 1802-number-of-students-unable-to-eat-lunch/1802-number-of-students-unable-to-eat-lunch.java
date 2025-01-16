@@ -1,26 +1,17 @@
 class Solution {
     public int countStudents(int[] students, int[] sandwiches) {
-        Stack <Integer> sandwichType = new Stack<>();
-        Queue <Integer> studentLikes = new LinkedList<>();
-        for(int i = 0; i < students.length; i++) {
-            studentLikes.add(students[i]);
-            sandwichType.push(sandwiches[(sandwiches.length-1) - i]);
+        int zeroCnt = 0;
+        int oneCnt = 0;
+        for(int ele : students) {
+            if(ele == 0) zeroCnt++;
+            else oneCnt++;
         }
-        int studentMissed = 0;
-        while(!studentLikes.isEmpty()) {
-            if(studentLikes.peek() == sandwichType.peek()) {
-                studentLikes.poll();
-                sandwichType.pop();
-                studentMissed = 0;
-            }
-            else {
-                studentMissed++;
-                studentLikes.add(studentLikes.poll());
-                if(studentMissed == studentLikes.size()) {
-                    break;
-                }
-            }
+        for(int i = 0; i < sandwiches.length; i++) {
+            if(sandwiches[i] == 0 && zeroCnt == 0) return oneCnt;
+            if(sandwiches[i] == 1 && oneCnt == 0) return zeroCnt;
+            if(sandwiches[i] == 0) zeroCnt--;
+            else oneCnt--;
         }
-        return studentMissed;
+        return 0;
     }
 }
