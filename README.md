@@ -31,11 +31,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/Yaswanthrangu/Leetcode/tree/master/1802-number-of-students-unable-to-eat-lunch) |
 | [2042-maximum-product-difference-between-two-pairs](https://github.com/Yaswanthrangu/Leetcode/tree/master/2042-maximum-product-difference-between-two-pairs) |
 | [2058-concatenation-of-array](https://github.com/Yaswanthrangu/Leetcode/tree/master/2058-concatenation-of-array) |
+| [2195-time-needed-to-buy-tickets](https://github.com/Yaswanthrangu/Leetcode/tree/master/2195-time-needed-to-buy-tickets) |
 ## Simulation
 |  |
 | ------- |
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/Yaswanthrangu/Leetcode/tree/master/1802-number-of-students-unable-to-eat-lunch) |
 | [2058-concatenation-of-array](https://github.com/Yaswanthrangu/Leetcode/tree/master/2058-concatenation-of-array) |
+| [2195-time-needed-to-buy-tickets](https://github.com/Yaswanthrangu/Leetcode/tree/master/2195-time-needed-to-buy-tickets) |
 ## Hash Table
 |  |
 | ------- |
@@ -169,6 +171,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0387-first-unique-character-in-a-string](https://github.com/Yaswanthrangu/Leetcode/tree/master/0387-first-unique-character-in-a-string) |
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/Yaswanthrangu/Leetcode/tree/master/1802-number-of-students-unable-to-eat-lunch) |
+| [2195-time-needed-to-buy-tickets](https://github.com/Yaswanthrangu/Leetcode/tree/master/2195-time-needed-to-buy-tickets) |
 ## Binary Search
 |  |
 | ------- |
