@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/Yaswanthrangu/Leetcode/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/Yaswanthrangu/Leetcode/tree/master/0217-contains-duplicate) |
 | [0303-range-sum-query-immutable](https://github.com/Yaswanthrangu/Leetcode/tree/master/0303-range-sum-query-immutable) |
+| [0347-top-k-frequent-elements](https://github.com/Yaswanthrangu/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/Yaswanthrangu/Leetcode/tree/master/0349-intersection-of-two-arrays) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/Yaswanthrangu/Leetcode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0496-next-greater-element-i](https://github.com/Yaswanthrangu/Leetcode/tree/master/0496-next-greater-element-i) |
@@ -51,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/Yaswanthrangu/Leetcode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Yaswanthrangu/Leetcode/tree/master/0242-valid-anagram) |
 | [0290-word-pattern](https://github.com/Yaswanthrangu/Leetcode/tree/master/0290-word-pattern) |
+| [0347-top-k-frequent-elements](https://github.com/Yaswanthrangu/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/Yaswanthrangu/Leetcode/tree/master/0349-intersection-of-two-arrays) |
 | [0387-first-unique-character-in-a-string](https://github.com/Yaswanthrangu/Leetcode/tree/master/0387-first-unique-character-in-a-string) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/Yaswanthrangu/Leetcode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
@@ -74,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/Yaswanthrangu/Leetcode/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/Yaswanthrangu/Leetcode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Yaswanthrangu/Leetcode/tree/master/0242-valid-anagram) |
+| [0347-top-k-frequent-elements](https://github.com/Yaswanthrangu/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/Yaswanthrangu/Leetcode/tree/master/0349-intersection-of-two-arrays) |
 | [0645-set-mismatch](https://github.com/Yaswanthrangu/Leetcode/tree/master/0645-set-mismatch) |
 | [0948-sort-an-array](https://github.com/Yaswanthrangu/Leetcode/tree/master/0948-sort-an-array) |
@@ -125,11 +128,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/Yaswanthrangu/Leetcode/tree/master/0169-majority-element) |
+| [0347-top-k-frequent-elements](https://github.com/Yaswanthrangu/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0948-sort-an-array](https://github.com/Yaswanthrangu/Leetcode/tree/master/0948-sort-an-array) |
 ## Counting
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/Yaswanthrangu/Leetcode/tree/master/0169-majority-element) |
+| [0347-top-k-frequent-elements](https://github.com/Yaswanthrangu/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0387-first-unique-character-in-a-string](https://github.com/Yaswanthrangu/Leetcode/tree/master/0387-first-unique-character-in-a-string) |
 | [1112-find-words-that-can-be-formed-by-characters](https://github.com/Yaswanthrangu/Leetcode/tree/master/1112-find-words-that-can-be-formed-by-characters) |
 | [1297-maximum-number-of-balloons](https://github.com/Yaswanthrangu/Leetcode/tree/master/1297-maximum-number-of-balloons) |
@@ -188,6 +193,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/Yaswanthrangu/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0948-sort-an-array](https://github.com/Yaswanthrangu/Leetcode/tree/master/0948-sort-an-array) |
 ## Merge Sort
 |  |
@@ -196,6 +202,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bucket Sort
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/Yaswanthrangu/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0948-sort-an-array](https://github.com/Yaswanthrangu/Leetcode/tree/master/0948-sort-an-array) |
 ## Radix Sort
 |  |
@@ -205,4 +212,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0948-sort-an-array](https://github.com/Yaswanthrangu/Leetcode/tree/master/0948-sort-an-array) |
+## Quickselect
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/Yaswanthrangu/Leetcode/tree/master/0347-top-k-frequent-elements) |
 <!---LeetCode Topics End-->
