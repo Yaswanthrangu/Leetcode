@@ -1,6 +1,6 @@
 class Solution {
     public int rob(int[] nums) {
-        int dp[] = new int[101];
+        int dp[] = new int[nums.length];
         Arrays.fill(dp, -1);
         return solve(nums, 0, dp);
     }
