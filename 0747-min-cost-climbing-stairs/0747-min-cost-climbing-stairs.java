@@ -4,9 +4,13 @@ class Solution {
         if(n == 2) {
             return Math.min(cost[0], cost[1]);
         }
+        int first = cost[0];
+        int second = cost[1];
         for(int i = 2; i < n; i++) {
-            cost[i] = cost[i] + Math.min(cost[i - 1], cost[i - 2]);
+            int curr = cost[i] + Math.min(first, second);
+            first = second;
+            second = curr;
         }
-        return 0 + Math.min(cost[n - 1], cost[n - 2]);
+        return 0 + Math.min(first, second);
     }
 }
