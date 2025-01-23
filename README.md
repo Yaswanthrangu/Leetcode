@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0605-can-place-flowers](https://github.com/Yaswanthrangu/Leetcode/tree/master/0605-can-place-flowers) |
 | [0645-set-mismatch](https://github.com/Yaswanthrangu/Leetcode/tree/master/0645-set-mismatch) |
 | [0724-find-pivot-index](https://github.com/Yaswanthrangu/Leetcode/tree/master/0724-find-pivot-index) |
+| [0747-min-cost-climbing-stairs](https://github.com/Yaswanthrangu/Leetcode/tree/master/0747-min-cost-climbing-stairs) |
 | [0816-design-hashset](https://github.com/Yaswanthrangu/Leetcode/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/Yaswanthrangu/Leetcode/tree/master/0817-design-hashmap) |
 | [0932-monotonic-array](https://github.com/Yaswanthrangu/Leetcode/tree/master/0932-monotonic-array) |
@@ -117,6 +118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0118-pascals-triangle](https://github.com/Yaswanthrangu/Leetcode/tree/master/0118-pascals-triangle) |
 | [0119-pascals-triangle-ii](https://github.com/Yaswanthrangu/Leetcode/tree/master/0119-pascals-triangle-ii) |
 | [0392-is-subsequence](https://github.com/Yaswanthrangu/Leetcode/tree/master/0392-is-subsequence) |
+| [0747-min-cost-climbing-stairs](https://github.com/Yaswanthrangu/Leetcode/tree/master/0747-min-cost-climbing-stairs) |
 ## Trie
 |  |
 | ------- |
