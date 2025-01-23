@@ -113,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/Yaswanthrangu/Leetcode/tree/master/0070-climbing-stairs) |
 | [0118-pascals-triangle](https://github.com/Yaswanthrangu/Leetcode/tree/master/0118-pascals-triangle) |
 | [0119-pascals-triangle-ii](https://github.com/Yaswanthrangu/Leetcode/tree/master/0119-pascals-triangle-ii) |
 | [0392-is-subsequence](https://github.com/Yaswanthrangu/Leetcode/tree/master/0392-is-subsequence) |
@@ -174,6 +175,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/Yaswanthrangu/Leetcode/tree/master/0070-climbing-stairs) |
 | [1635-number-of-good-pairs](https://github.com/Yaswanthrangu/Leetcode/tree/master/1635-number-of-good-pairs) |
 ## Bit Manipulation
 |  |
@@ -216,4 +218,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/Yaswanthrangu/Leetcode/tree/master/0347-top-k-frequent-elements) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/Yaswanthrangu/Leetcode/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
