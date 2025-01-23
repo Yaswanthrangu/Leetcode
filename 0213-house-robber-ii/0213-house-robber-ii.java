@@ -4,23 +4,21 @@ class Solution {
         if(n == 1) {
             return nums[0];
         }
-        int dp1[] = new int[nums.length];
-        int dp2[] = new int[nums.length];
-        Arrays.fill(dp1, -1);
-        Arrays.fill(dp2, -1);
-        int preferring_zero = solve(nums, 0, dp1, n - 1);
-        int preferring_first = solve(nums, 1, dp2, n);
-        return Math.max(preferring_zero, preferring_first);
+        if(n == 2) {
+            return Math.max(nums[0], nums[1]);
+        }
+        int res1 = solve(nums, 0, n - 2);
+        int res2 = solve(nums, 1, n - 1);
+        return Math.max(res1, res2);
     }
-    public static int solve(int nums[], int idx, int dp[], int n) {
-        if(idx >= n) {
-            return 0;
+    public static int solve(int nums[], int start, int end) {
+        int prevPrev = 0;
+        int prev = 0;
+        for(int i = start; i <= end; i++) {
+            int curr = Math.max(prevPrev + nums[i], prev);
+            prevPrev = prev;
+            prev = curr;
         }
-        if(dp[idx] != -1) {
-            return dp[idx];
-        }
-        int steal = nums[idx] + solve(nums, idx + 2, dp, n);
-        int skip = solve(nums, idx + 1, dp, n);
-        return dp[idx] = Math.max(steal, skip);
+        return prev;
     }
 }
