@@ -88,6 +88,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/Yaswanthrangu/Leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0014-longest-common-prefix](https://github.com/Yaswanthrangu/Leetcode/tree/master/0014-longest-common-prefix) |
 | [0049-group-anagrams](https://github.com/Yaswanthrangu/Leetcode/tree/master/0049-group-anagrams) |
 | [0058-length-of-last-word](https://github.com/Yaswanthrangu/Leetcode/tree/master/0058-length-of-last-word) |
@@ -109,6 +110,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/Yaswanthrangu/Leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0027-remove-element](https://github.com/Yaswanthrangu/Leetcode/tree/master/0027-remove-element) |
 | [0075-sort-colors](https://github.com/Yaswanthrangu/Leetcode/tree/master/0075-sort-colors) |
 | [0349-intersection-of-two-arrays](https://github.com/Yaswanthrangu/Leetcode/tree/master/0349-intersection-of-two-arrays) |
@@ -116,6 +118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/Yaswanthrangu/Leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0070-climbing-stairs](https://github.com/Yaswanthrangu/Leetcode/tree/master/0070-climbing-stairs) |
 | [0118-pascals-triangle](https://github.com/Yaswanthrangu/Leetcode/tree/master/0118-pascals-triangle) |
 | [0119-pascals-triangle-ii](https://github.com/Yaswanthrangu/Leetcode/tree/master/0119-pascals-triangle-ii) |
