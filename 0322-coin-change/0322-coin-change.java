@@ -1,24 +1,22 @@
 class Solution {
     public int coinChange(int[] coins, int amount) {
         int dp[][] = new int[coins.length + 1][amount + 1];
-        for(int i = 0; i < coins.length + 1; i++) {
-            for(int j = 0; j < amount + 1; j++) {
-                dp[i][j] = -1;
+        for(int i = 0; i < coins.length; i++) {
+            dp[i][0] = 0;
+        }
+        for(int j = 1; j < amount + 1; j++) {
+            dp[0][j] = Integer.MAX_VALUE - 1;
+        }
+        for(int i = 1; i < coins.length + 1; i++) {
+            for(int j = 1; j < amount + 1; j++) {
+                if(coins[i-1] <= j) {
+                    dp[i][j] = Math.min(dp[i-1][j] , 1+dp[i][j-coins[i-1]]);
+                }
+                else {
+                    dp[i][j] = dp[i-1][j];
+                }
             }
         }
-        int result = solve(coins.length - 1, coins, amount, 0, dp);
-        return result == (Integer.MAX_VALUE) ? -1 : result;
-    }
-    public static int solve(int idx, int coins[], int amt, int curr_sum, int dp[][]) {
-        if(curr_sum == amt) return 0;
-        if(curr_sum > amt) return Integer.MAX_VALUE;
-        if(idx < 0) return Integer.MAX_VALUE;
-        if(dp[idx][curr_sum] != -1) {
-            return dp[idx][curr_sum];
-        }
-        int include = solve(idx, coins, amt, curr_sum + coins[idx], dp);
-        if(include != Integer.MAX_VALUE) include += 1;
-        int exclude = solve(idx - 1, coins, amt, curr_sum, dp);
-        return dp[idx][curr_sum] = Math.min(include, exclude);
+        return dp[coins.length][amount] == (Integer.MAX_VALUE - 1) ? -1 : dp[coins.length][amount];
     }
 }
