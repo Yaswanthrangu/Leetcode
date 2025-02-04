@@ -133,6 +133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0070-climbing-stairs](https://github.com/Yaswanthrangu/Leetcode/tree/master/0070-climbing-stairs) |
 | [0072-edit-distance](https://github.com/Yaswanthrangu/Leetcode/tree/master/0072-edit-distance) |
 | [0091-decode-ways](https://github.com/Yaswanthrangu/Leetcode/tree/master/0091-decode-ways) |
+| [0096-unique-binary-search-trees](https://github.com/Yaswanthrangu/Leetcode/tree/master/0096-unique-binary-search-trees) |
 | [0118-pascals-triangle](https://github.com/Yaswanthrangu/Leetcode/tree/master/0118-pascals-triangle) |
 | [0119-pascals-triangle-ii](https://github.com/Yaswanthrangu/Leetcode/tree/master/0119-pascals-triangle-ii) |
 | [0198-house-robber](https://github.com/Yaswanthrangu/Leetcode/tree/master/0198-house-robber) |
@@ -205,6 +206,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/Yaswanthrangu/Leetcode/tree/master/0070-climbing-stairs) |
+| [0096-unique-binary-search-trees](https://github.com/Yaswanthrangu/Leetcode/tree/master/0096-unique-binary-search-trees) |
 | [1635-number-of-good-pairs](https://github.com/Yaswanthrangu/Leetcode/tree/master/1635-number-of-good-pairs) |
 ## Bit Manipulation
 |  |
@@ -260,4 +262,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0044-wildcard-matching](https://github.com/Yaswanthrangu/Leetcode/tree/master/0044-wildcard-matching) |
+## Tree
+|  |
+| ------- |
+| [0096-unique-binary-search-trees](https://github.com/Yaswanthrangu/Leetcode/tree/master/0096-unique-binary-search-trees) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0096-unique-binary-search-trees](https://github.com/Yaswanthrangu/Leetcode/tree/master/0096-unique-binary-search-trees) |
+## Binary Tree
+|  |
+| ------- |
+| [0096-unique-binary-search-trees](https://github.com/Yaswanthrangu/Leetcode/tree/master/0096-unique-binary-search-trees) |
 <!---LeetCode Topics End-->
