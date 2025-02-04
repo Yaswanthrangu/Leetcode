@@ -94,6 +94,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/Yaswanthrangu/Leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0014-longest-common-prefix](https://github.com/Yaswanthrangu/Leetcode/tree/master/0014-longest-common-prefix) |
+| [0044-wildcard-matching](https://github.com/Yaswanthrangu/Leetcode/tree/master/0044-wildcard-matching) |
 | [0049-group-anagrams](https://github.com/Yaswanthrangu/Leetcode/tree/master/0049-group-anagrams) |
 | [0058-length-of-last-word](https://github.com/Yaswanthrangu/Leetcode/tree/master/0058-length-of-last-word) |
 | [0072-edit-distance](https://github.com/Yaswanthrangu/Leetcode/tree/master/0072-edit-distance) |
@@ -128,6 +129,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/Yaswanthrangu/Leetcode/tree/master/0005-longest-palindromic-substring) |
+| [0044-wildcard-matching](https://github.com/Yaswanthrangu/Leetcode/tree/master/0044-wildcard-matching) |
 | [0070-climbing-stairs](https://github.com/Yaswanthrangu/Leetcode/tree/master/0070-climbing-stairs) |
 | [0072-edit-distance](https://github.com/Yaswanthrangu/Leetcode/tree/master/0072-edit-distance) |
 | [0091-decode-ways](https://github.com/Yaswanthrangu/Leetcode/tree/master/0091-decode-ways) |
@@ -150,6 +152,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0044-wildcard-matching](https://github.com/Yaswanthrangu/Leetcode/tree/master/0044-wildcard-matching) |
 | [0605-can-place-flowers](https://github.com/Yaswanthrangu/Leetcode/tree/master/0605-can-place-flowers) |
 ## Divide and Conquer
 |  |
@@ -253,4 +256,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0322-coin-change](https://github.com/Yaswanthrangu/Leetcode/tree/master/0322-coin-change) |
+## Recursion
+|  |
+| ------- |
+| [0044-wildcard-matching](https://github.com/Yaswanthrangu/Leetcode/tree/master/0044-wildcard-matching) |
 <!---LeetCode Topics End-->
