@@ -130,6 +130,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/Yaswanthrangu/Leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0044-wildcard-matching](https://github.com/Yaswanthrangu/Leetcode/tree/master/0044-wildcard-matching) |
+| [0062-unique-paths](https://github.com/Yaswanthrangu/Leetcode/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/Yaswanthrangu/Leetcode/tree/master/0070-climbing-stairs) |
 | [0072-edit-distance](https://github.com/Yaswanthrangu/Leetcode/tree/master/0072-edit-distance) |
 | [0091-decode-ways](https://github.com/Yaswanthrangu/Leetcode/tree/master/0091-decode-ways) |
@@ -205,6 +206,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0062-unique-paths](https://github.com/Yaswanthrangu/Leetcode/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/Yaswanthrangu/Leetcode/tree/master/0070-climbing-stairs) |
 | [0096-unique-binary-search-trees](https://github.com/Yaswanthrangu/Leetcode/tree/master/0096-unique-binary-search-trees) |
 | [1635-number-of-good-pairs](https://github.com/Yaswanthrangu/Leetcode/tree/master/1635-number-of-good-pairs) |
@@ -274,4 +276,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0096-unique-binary-search-trees](https://github.com/Yaswanthrangu/Leetcode/tree/master/0096-unique-binary-search-trees) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/Yaswanthrangu/Leetcode/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
