@@ -1,32 +1,26 @@
 class Solution {
     public int minCost(int n, int[] cuts) {
-        int newCuts[] = new int[cuts.length+2];
-        newCuts[0] = 0;
-        newCuts[newCuts.length-1] = n;
-        for(int i = 1; i <= cuts.length; i++) {
-            newCuts[i] = cuts[i-1];
-        }
-        Arrays.sort(newCuts);
-        int dp[][] = new int[newCuts.length][newCuts.length];
-        for(int i = 0; i < newCuts.length; i++) {
-            for(int j = 0; j < newCuts.length; j++) {
+        Arrays.sort(cuts);
+        int dp[][] = new int[cuts.length][cuts.length];
+        for(int i = 0; i < cuts.length; i++) {
+            for(int j = 0; j < cuts.length; j++) {
                 dp[i][j] = -1;
             }
         }
-        return solve(0, newCuts.length-1, newCuts, dp);
+        return solve(0, n, cuts, 0, cuts.length-1, dp);
     }
-    public static int solve(int l, int r, int newCuts[], int dp[][]) {
-
-        if(r-l <= 1) return 0; // impossible to cut
-        if(dp[l][r] != -1) {
-            return dp[l][r];
-        }
+    public static int solve(int start_stick, int end_stick, int cuts[], int leftCut, int rightCut, int dp[][]) {
         int res = Integer.MAX_VALUE;
-        for(int idx = l+1; idx <= r-1; idx++) {
-            int cost = (newCuts[r] - newCuts[l]) + solve(l, idx, newCuts, dp) + solve(idx, r, newCuts, dp);
-            res = Math.min(res, cost);
-            dp[l][r] = res;
+        if(leftCut > rightCut) {
+            return 0;
         }
-        return res;
+        if(dp[leftCut][rightCut] != -1) return dp[leftCut][rightCut];
+        for(int i = leftCut; i <= rightCut; i++) {
+            int left_cut_cost = solve(start_stick, cuts[i], cuts, leftCut, i-1, dp);
+            int right_cut_cost = solve(cuts[i], end_stick, cuts, i+1, rightCut, dp);
+            int total_cost = (end_stick - start_stick) + left_cut_cost + right_cut_cost;
+            res = Math.min(res, total_cost);
+        }
+        return dp[leftCut][rightCut] = res;
     }
 }
