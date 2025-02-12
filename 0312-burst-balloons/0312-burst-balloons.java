@@ -1,27 +1,20 @@
 class Solution {
     public int maxCoins(int[] nums) {
-        int arr[] = new int[nums.length+2];
-        arr[0] = 1;
-        arr[nums.length+1] = 1;
-        for(int i = 1; i <= nums.length; i++) {
-            arr[i] = nums[i-1];
-        }
-        int dp[][] = new int[nums.length+2][nums.length+2];
-        for(int i = 0; i < nums.length+2; i++) {
-            for(int j = 0; j < nums.length+2; j++) {
-                dp[i][j] = -1;
+        int n = nums.length;
+        int dp[][] = new int[n][n];
+        for(int len = 1; len <= n; len++) {
+            for(int i = 0; i <= n - len; i++) {
+                int j = i + len - 1;
+                for(int k = i; k <= j; k++) {
+                    // Cost got from left sub problem
+                    // k == i (if there are no left balloons and bursting current at last = 0)
+                    int left = (k == i) ? 0 : dp[i][k - 1];
+                    int right = (k == j) ? 0 : dp[k+1][j];
+                    int cur = ((i == 0 ? 1 : nums[i-1]) * nums[k] * (j == n - 1 ? 1 : nums[j+1]));
+                    dp[i][j] = Math.max(dp[i][j], left + right + cur);
+                }
             }
         }
-        return solve(1, nums.length, arr, dp);
-    }
-    public static int solve(int i, int j, int arr[], int dp[][]) {
-        if(i > j) return 0;
-        if(dp[i][j] != -1) return dp[i][j];
-        int mini = Integer.MIN_VALUE;
-        for(int k = i; k <= j; k++) {
-            int cost = arr[i-1] * arr[k] * arr[j+1] + solve(i, k-1, arr, dp) + solve(k+1, j, arr, dp);
-            mini = Math.max(mini, cost);
-        }
-        return dp[i][j] = mini;
+        return dp[0][n-1];
     }
 }
