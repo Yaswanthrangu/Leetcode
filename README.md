@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/Yaswanthrangu/Leetcode/tree/master/0075-sort-colors) |
 | [0118-pascals-triangle](https://github.com/Yaswanthrangu/Leetcode/tree/master/0118-pascals-triangle) |
 | [0119-pascals-triangle-ii](https://github.com/Yaswanthrangu/Leetcode/tree/master/0119-pascals-triangle-ii) |
+| [0139-word-break](https://github.com/Yaswanthrangu/Leetcode/tree/master/0139-word-break) |
 | [0169-majority-element](https://github.com/Yaswanthrangu/Leetcode/tree/master/0169-majority-element) |
 | [0198-house-robber](https://github.com/Yaswanthrangu/Leetcode/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/Yaswanthrangu/Leetcode/tree/master/0213-house-robber-ii) |
@@ -58,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/Yaswanthrangu/Leetcode/tree/master/0001-two-sum) |
 | [0049-group-anagrams](https://github.com/Yaswanthrangu/Leetcode/tree/master/0049-group-anagrams) |
+| [0139-word-break](https://github.com/Yaswanthrangu/Leetcode/tree/master/0139-word-break) |
 | [0169-majority-element](https://github.com/Yaswanthrangu/Leetcode/tree/master/0169-majority-element) |
 | [0205-isomorphic-strings](https://github.com/Yaswanthrangu/Leetcode/tree/master/0205-isomorphic-strings) |
 | [0217-contains-duplicate](https://github.com/Yaswanthrangu/Leetcode/tree/master/0217-contains-duplicate) |
@@ -104,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0058-length-of-last-word](https://github.com/Yaswanthrangu/Leetcode/tree/master/0058-length-of-last-word) |
 | [0072-edit-distance](https://github.com/Yaswanthrangu/Leetcode/tree/master/0072-edit-distance) |
 | [0091-decode-ways](https://github.com/Yaswanthrangu/Leetcode/tree/master/0091-decode-ways) |
+| [0139-word-break](https://github.com/Yaswanthrangu/Leetcode/tree/master/0139-word-break) |
 | [0205-isomorphic-strings](https://github.com/Yaswanthrangu/Leetcode/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/Yaswanthrangu/Leetcode/tree/master/0242-valid-anagram) |
 | [0290-word-pattern](https://github.com/Yaswanthrangu/Leetcode/tree/master/0290-word-pattern) |
@@ -144,6 +147,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0096-unique-binary-search-trees](https://github.com/Yaswanthrangu/Leetcode/tree/master/0096-unique-binary-search-trees) |
 | [0118-pascals-triangle](https://github.com/Yaswanthrangu/Leetcode/tree/master/0118-pascals-triangle) |
 | [0119-pascals-triangle-ii](https://github.com/Yaswanthrangu/Leetcode/tree/master/0119-pascals-triangle-ii) |
+| [0139-word-break](https://github.com/Yaswanthrangu/Leetcode/tree/master/0139-word-break) |
 | [0198-house-robber](https://github.com/Yaswanthrangu/Leetcode/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/Yaswanthrangu/Leetcode/tree/master/0213-house-robber-ii) |
 | [0300-longest-increasing-subsequence](https://github.com/Yaswanthrangu/Leetcode/tree/master/0300-longest-increasing-subsequence) |
@@ -160,6 +164,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/Yaswanthrangu/Leetcode/tree/master/0014-longest-common-prefix) |
+| [0139-word-break](https://github.com/Yaswanthrangu/Leetcode/tree/master/0139-word-break) |
 ## Greedy
 |  |
 | ------- |
@@ -265,6 +270,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/Yaswanthrangu/Leetcode/tree/master/0070-climbing-stairs) |
+| [0139-word-break](https://github.com/Yaswanthrangu/Leetcode/tree/master/0139-word-break) |
 ## Breadth-First Search
 |  |
 | ------- |
