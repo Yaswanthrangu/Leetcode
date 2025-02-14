@@ -1,17 +1,25 @@
 class Solution {
     public boolean wordBreak(String s, List<String> wordDict) {
         int n = s.length();
-        HashSet <String> st = new HashSet<>(wordDict);
-        boolean dp[] = new boolean[n];
-        for(int start = 0; start < n; start++) { // n - 1 index will be considered at last
-            for(int end = start; end < n; end++) { // like a sub array
-                String formed = s.substring(start, end+1); // end + 1 (0,1)
-                // if end = n - 1 then to calculate the substring  = (n - 1, n)
-                if((start == 0 || dp[start-1]) && st.contains(formed)) {
-                    dp[end] = true;
+        HashSet <String> wordSet = new HashSet<>(wordDict);
+        boolean dp[][] = new boolean[n][n];
+        for (int length = 1; length <= n; length++) {
+            for (int start = 0; start <= n - length; start++) {
+                int end = start + length - 1;
+
+                if (wordSet.contains(s.substring(start, end + 1))) {
+                    dp[start][end] = true;
+                    continue; 
+                }
+
+                for (int mid = start; mid < end; mid++) {
+                    if (dp[start][mid] && dp[mid + 1][end]) {
+                        dp[start][end] = true;
+                        break; 
+                    }
                 }
             }
         }
-        return dp[n-1];
+        return dp[0][n-1];
     }
 }
