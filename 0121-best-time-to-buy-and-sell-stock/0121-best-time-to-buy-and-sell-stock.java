@@ -2,14 +2,14 @@ class Solution {
     public int maxProfit(int[] prices) {
         int n = prices.length;
         int maxi = 0;
-        int buyPrice = Integer.MAX_VALUE;
-        for(int i = 0; i < n; i++) {
+        int sellPrice = Integer.MIN_VALUE;
+        for(int i = n-1; i >= 0; i--) {
             int today_price = prices[i];
-            if(today_price < buyPrice) {
-                buyPrice = today_price;
+            if(today_price > sellPrice) {
+                sellPrice = today_price;
             }
-            else if(today_price - buyPrice > maxi) {
-                maxi = today_price - buyPrice;
+            else if(sellPrice - today_price > maxi) {
+                maxi = sellPrice - today_price;
             }
         }
         return maxi;
