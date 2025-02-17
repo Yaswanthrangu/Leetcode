@@ -3,12 +3,10 @@ class Solution {
         int n = prices.length;
         int dp[][] = new int[k+1][n];
         for(int i = 1; i <= k; i++) {
+            int maxDiff = -prices[0];
             for(int j = 1; j < n; j++) {
-                int tillNow = 0;
-                for (int m = 0; m < j; m++) {
-                    tillNow = Math.max(tillNow, dp[i-1][m] + prices[j] - prices[m]);
-                }
-                dp[i][j] = Math.max(dp[i][j-1], tillNow);
+                dp[i][j] = Math.max(dp[i][j-1], prices[j] + maxDiff);
+                maxDiff = Math.max(maxDiff, dp[i-1][j] - prices[j]);
             }
         }
         return dp[k][n-1];
