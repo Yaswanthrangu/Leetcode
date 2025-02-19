@@ -1,18 +1,25 @@
 class Solution {
     public int findTargetSumWays(int[] nums, int target) {
-        HashMap <String, Integer> mp = new HashMap<>();
-        return solve(nums, 0, 0, target, mp);
-    }
-    public static int solve(int nums[], int idx, int currSum, int target, HashMap <String, Integer> mp) {
-        if(idx == nums.length) {
-            if(currSum == target) return 1;
-            else return 0;
+        int n = nums.length;
+        int totSum = 0;
+        for(int num : nums) totSum += num;
+        int dp[][] = new int[n][(2*totSum)+1];
+        for(int i = 0; i < n; i++) {
+            for(int j = 0; j < 2*totSum + 1; j++) {
+                dp[i][j] = Integer.MIN_VALUE;
+            }
         }
-        String key = idx + "_" + currSum;
-        if(mp.containsKey(key)) return mp.get(key);
-        int plus = solve(nums, idx + 1, currSum + nums[idx], target, mp);
-        int minus = solve(nums, idx + 1, currSum - nums[idx], target, mp);
-        mp.put(key, plus + minus);
-        return mp.get(key);
+        return solve(0, 0, target, nums, dp, totSum);
+    }
+    public static int solve(int idx, int currSum, int target, int nums[], int dp[][], int totSum) {
+        if(idx == nums.length) {
+            return currSum == target ? 1 : 0;
+        }
+        if(dp[idx][currSum + totSum] != Integer.MIN_VALUE) {
+            return dp[idx][currSum + totSum];
+        }
+        int plus = solve(idx + 1, currSum + nums[idx], target, nums, dp, totSum);
+        int minus = solve(idx + 1, currSum - nums[idx], target, nums, dp, totSum);
+        return dp[idx][currSum + totSum] = plus + minus;
     }
 }
