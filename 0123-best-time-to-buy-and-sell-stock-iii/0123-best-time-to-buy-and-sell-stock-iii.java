@@ -1,28 +1,32 @@
 class Solution {
     public int maxProfit(int[] prices) {
         int n = prices.length;
-        int dp[][][] = new int[n][2][3];
-        for(int row[][] : dp) {
-            for(int col[] : row) {
-                Arrays.fill(col, -1);
+        int dp[][][] = new int[n+1][2][3];
+        // if capacity == 0
+        for(int i = 0; i < n; i++) {
+            for(int j = 0; j < 2; j++) {
+                dp[i][j][0] = 0;
             }
         }
-        return solve(prices, 0, 1, 2, dp);
-    }
-    public static int solve(int prices[], int idx, int buy, int cap, int dp[][][]) {
-        if (cap == 0 || idx == prices.length) return 0;
-        if (dp[idx][buy][cap] != -1) return dp[idx][buy][cap];
-        int profit = 0;
-        if(buy == 1) {
-            int buyNow = -prices[idx] + solve(prices, idx + 1, 0, cap, dp);
-            int buyLater = solve(prices, idx + 1, 1, cap, dp);
-            profit = Math.max(buyNow, buyLater);
+        // if prices size is n
+        for(int i = 0; i < 2; i++) {
+            for(int j = 0; j < 3; j++) {
+                dp[n][i][j] = 0;
+            }
         }
-        else {
-            int sellNow = prices[idx] + solve(prices, idx + 1, 1, cap - 1, dp);
-            int sellLater = solve(prices, idx + 1, 0, cap, dp);
-            profit = Math.max(sellNow, sellLater);
+        // tabulation
+        for(int idx = n - 1; idx >= 0; idx--) {
+            for(int buy = 0; buy < 2; buy++) {
+                for(int cap = 1; cap <= 2; cap++) {
+                    if(buy == 1) {
+                        dp[idx][buy][cap] = Math.max(-prices[idx] + dp[idx+1][0][cap] , dp[idx+1][1][cap]);
+                    }
+                    else {
+                        dp[idx][buy][cap] = Math.max(prices[idx] + dp[idx+1][1][cap-1], dp[idx+1][0][cap]);
+                    }
+                }
+            }
         }
-        return dp[idx][buy][cap] = profit;
+        return dp[0][1][2];
     }
 }
