@@ -39,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0518-coin-change-ii](https://github.com/Yaswanthrangu/Leetcode/tree/master/0518-coin-change-ii) |
 | [0605-can-place-flowers](https://github.com/Yaswanthrangu/Leetcode/tree/master/0605-can-place-flowers) |
 | [0645-set-mismatch](https://github.com/Yaswanthrangu/Leetcode/tree/master/0645-set-mismatch) |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Yaswanthrangu/Leetcode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0724-find-pivot-index](https://github.com/Yaswanthrangu/Leetcode/tree/master/0724-find-pivot-index) |
 | [0747-min-cost-climbing-stairs](https://github.com/Yaswanthrangu/Leetcode/tree/master/0747-min-cost-climbing-stairs) |
 | [0816-design-hashset](https://github.com/Yaswanthrangu/Leetcode/tree/master/0816-design-hashset) |
@@ -175,6 +176,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0494-target-sum](https://github.com/Yaswanthrangu/Leetcode/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/Yaswanthrangu/Leetcode/tree/master/0518-coin-change-ii) |
 | [0647-palindromic-substrings](https://github.com/Yaswanthrangu/Leetcode/tree/master/0647-palindromic-substrings) |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Yaswanthrangu/Leetcode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0747-min-cost-climbing-stairs](https://github.com/Yaswanthrangu/Leetcode/tree/master/0747-min-cost-climbing-stairs) |
 | [1250-longest-common-subsequence](https://github.com/Yaswanthrangu/Leetcode/tree/master/1250-longest-common-subsequence) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/Yaswanthrangu/Leetcode/tree/master/1669-minimum-cost-to-cut-a-stick) |
@@ -189,6 +191,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0044-wildcard-matching](https://github.com/Yaswanthrangu/Leetcode/tree/master/0044-wildcard-matching) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Yaswanthrangu/Leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0605-can-place-flowers](https://github.com/Yaswanthrangu/Leetcode/tree/master/0605-can-place-flowers) |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Yaswanthrangu/Leetcode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 ## Divide and Conquer
 |  |
 | ------- |
