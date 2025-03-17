@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/Yaswanthrangu/Leetcode/tree/master/0001-two-sum) |
 | [0027-remove-element](https://github.com/Yaswanthrangu/Leetcode/tree/master/0027-remove-element) |
+| [0045-jump-game-ii](https://github.com/Yaswanthrangu/Leetcode/tree/master/0045-jump-game-ii) |
 | [0049-group-anagrams](https://github.com/Yaswanthrangu/Leetcode/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/Yaswanthrangu/Leetcode/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/Yaswanthrangu/Leetcode/tree/master/0055-jump-game) |
@@ -151,6 +152,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/Yaswanthrangu/Leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0044-wildcard-matching](https://github.com/Yaswanthrangu/Leetcode/tree/master/0044-wildcard-matching) |
+| [0045-jump-game-ii](https://github.com/Yaswanthrangu/Leetcode/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/Yaswanthrangu/Leetcode/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/Yaswanthrangu/Leetcode/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/Yaswanthrangu/Leetcode/tree/master/0062-unique-paths) |
@@ -195,6 +197,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0044-wildcard-matching](https://github.com/Yaswanthrangu/Leetcode/tree/master/0044-wildcard-matching) |
+| [0045-jump-game-ii](https://github.com/Yaswanthrangu/Leetcode/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/Yaswanthrangu/Leetcode/tree/master/0055-jump-game) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Yaswanthrangu/Leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0605-can-place-flowers](https://github.com/Yaswanthrangu/Leetcode/tree/master/0605-can-place-flowers) |
