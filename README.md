@@ -86,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/Yaswanthrangu/Leetcode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0496-next-greater-element-i](https://github.com/Yaswanthrangu/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0645-set-mismatch](https://github.com/Yaswanthrangu/Leetcode/tree/master/0645-set-mismatch) |
+| [0768-partition-labels](https://github.com/Yaswanthrangu/Leetcode/tree/master/0768-partition-labels) |
 | [0816-design-hashset](https://github.com/Yaswanthrangu/Leetcode/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/Yaswanthrangu/Leetcode/tree/master/0817-design-hashmap) |
 | [0876-hand-of-straights](https://github.com/Yaswanthrangu/Leetcode/tree/master/0876-hand-of-straights) |
@@ -132,6 +133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0387-first-unique-character-in-a-string](https://github.com/Yaswanthrangu/Leetcode/tree/master/0387-first-unique-character-in-a-string) |
 | [0392-is-subsequence](https://github.com/Yaswanthrangu/Leetcode/tree/master/0392-is-subsequence) |
 | [0647-palindromic-substrings](https://github.com/Yaswanthrangu/Leetcode/tree/master/0647-palindromic-substrings) |
+| [0768-partition-labels](https://github.com/Yaswanthrangu/Leetcode/tree/master/0768-partition-labels) |
 | [0965-unique-email-addresses](https://github.com/Yaswanthrangu/Leetcode/tree/master/0965-unique-email-addresses) |
 | [1112-find-words-that-can-be-formed-by-characters](https://github.com/Yaswanthrangu/Leetcode/tree/master/1112-find-words-that-can-be-formed-by-characters) |
 | [1250-longest-common-subsequence](https://github.com/Yaswanthrangu/Leetcode/tree/master/1250-longest-common-subsequence) |
@@ -152,6 +154,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0349-intersection-of-two-arrays](https://github.com/Yaswanthrangu/Leetcode/tree/master/0349-intersection-of-two-arrays) |
 | [0392-is-subsequence](https://github.com/Yaswanthrangu/Leetcode/tree/master/0392-is-subsequence) |
 | [0647-palindromic-substrings](https://github.com/Yaswanthrangu/Leetcode/tree/master/0647-palindromic-substrings) |
+| [0768-partition-labels](https://github.com/Yaswanthrangu/Leetcode/tree/master/0768-partition-labels) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -208,6 +211,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0134-gas-station](https://github.com/Yaswanthrangu/Leetcode/tree/master/0134-gas-station) |
 | [0605-can-place-flowers](https://github.com/Yaswanthrangu/Leetcode/tree/master/0605-can-place-flowers) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Yaswanthrangu/Leetcode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
+| [0768-partition-labels](https://github.com/Yaswanthrangu/Leetcode/tree/master/0768-partition-labels) |
 | [0876-hand-of-straights](https://github.com/Yaswanthrangu/Leetcode/tree/master/0876-hand-of-straights) |
 | [2026-merge-triplets-to-form-target-triplet](https://github.com/Yaswanthrangu/Leetcode/tree/master/2026-merge-triplets-to-form-target-triplet) |
 ## Divide and Conquer
