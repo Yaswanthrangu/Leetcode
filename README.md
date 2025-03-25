@@ -76,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/Yaswanthrangu/Leetcode/tree/master/0049-group-anagrams) |
 | [0139-word-break](https://github.com/Yaswanthrangu/Leetcode/tree/master/0139-word-break) |
 | [0169-majority-element](https://github.com/Yaswanthrangu/Leetcode/tree/master/0169-majority-element) |
+| [0202-happy-number](https://github.com/Yaswanthrangu/Leetcode/tree/master/0202-happy-number) |
 | [0205-isomorphic-strings](https://github.com/Yaswanthrangu/Leetcode/tree/master/0205-isomorphic-strings) |
 | [0217-contains-duplicate](https://github.com/Yaswanthrangu/Leetcode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Yaswanthrangu/Leetcode/tree/master/0242-valid-anagram) |
@@ -151,6 +152,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0005-longest-palindromic-substring](https://github.com/Yaswanthrangu/Leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0027-remove-element](https://github.com/Yaswanthrangu/Leetcode/tree/master/0027-remove-element) |
 | [0075-sort-colors](https://github.com/Yaswanthrangu/Leetcode/tree/master/0075-sort-colors) |
+| [0202-happy-number](https://github.com/Yaswanthrangu/Leetcode/tree/master/0202-happy-number) |
 | [0349-intersection-of-two-arrays](https://github.com/Yaswanthrangu/Leetcode/tree/master/0349-intersection-of-two-arrays) |
 | [0392-is-subsequence](https://github.com/Yaswanthrangu/Leetcode/tree/master/0392-is-subsequence) |
 | [0647-palindromic-substrings](https://github.com/Yaswanthrangu/Leetcode/tree/master/0647-palindromic-substrings) |
@@ -268,6 +270,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0062-unique-paths](https://github.com/Yaswanthrangu/Leetcode/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/Yaswanthrangu/Leetcode/tree/master/0070-climbing-stairs) |
 | [0096-unique-binary-search-trees](https://github.com/Yaswanthrangu/Leetcode/tree/master/0096-unique-binary-search-trees) |
+| [0202-happy-number](https://github.com/Yaswanthrangu/Leetcode/tree/master/0202-happy-number) |
 | [1635-number-of-good-pairs](https://github.com/Yaswanthrangu/Leetcode/tree/master/1635-number-of-good-pairs) |
 ## Bit Manipulation
 |  |
